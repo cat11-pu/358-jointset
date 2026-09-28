@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_side_code": "E_BAD_SIDE",
+  "dup_member_code": "E_DUP_MEMBER",
+  "no_member_code": "E_NO_MEMBER",
+  "empty_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "members": [], "records": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "declare", "name": "a", "side": "old" },
+    { "id": 2, "kind": "declare", "name": "b", "side": "new" },
+    { "id": 3, "kind": "vote", "name": "a", "yes": true },
+    { "id": 4, "kind": "decide" }
+  ]
+}
